@@ -5,23 +5,33 @@ export default {
     extend: {
       colors: {
         elo: {
-          bg: '#0A0A0A',
-          surface: '#141414',
-          card: '#1C1C1C',
-          border: '#2A2A2A',
-          accent: '#E8B84B',
-          'accent-dim': '#C49A35',
-          text: '#F0EDE6',
-          muted: '#888580',
-          danger: '#E05555',
-          success: '#4CAF7D',
-          warning: '#E8A23A',
+          bg: '#FAF7F2',
+          surface: '#F5F0E8',
+          card: '#FFFFFF',
+          border: '#E8E0D0',
+          'border-dark': '#D4C9B5',
+          accent: '#B8860B',
+          'accent-dim': '#9A7009',
+          'accent-light': '#FDF3DC',
+          text: '#2C2416',
+          secondary: '#6B5B3E',
+          muted: '#A0927A',
+          danger: '#C0392B',
+          'danger-light': '#FDECEA',
+          success: '#2E7D32',
+          'success-light': '#EDF7EE',
+          warning: '#E65100',
+          'warning-light': '#FFF3E0',
         }
       },
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
         body: ['"DM Sans"', 'sans-serif'],
         mono: ['"DM Mono"', 'monospace'],
+      },
+      boxShadow: {
+        'card': '0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04)',
+        'modal': '0 20px 60px rgba(0,0,0,0.15)',
       }
     }
   },
